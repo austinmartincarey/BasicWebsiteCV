@@ -35,14 +35,14 @@
     </div>
     <div class="main">
         <h1>Send Me a Message</h2>
-        <form class="" action="mailto:austinmartincarey@gmail.com" method="post" enctype="text/plain">
-           <label>Your Name</label> 
-           <input type="text" name="yourName" value=""><br><br>
-           <label>Your Email</label> 
-           <input type="email" name="yourEmail"><br><br>
-           <label>Your Message</label><br>
-           <textarea name="" id="" cols="100" rows="20"></textarea>
-           <input type="Submit" name="yourMessage">
+        <form class="" action="contactform.php" method="POST">
+           <label style="font-size: 18px;">Your Name</label> 
+           <input type="text" name="name" placeholder="John Smith" style="font-size: 18px;"><br><br>
+           <label style="font-size: 18px;">Your Email</label> 
+           <input type="email" name="email" placeholder="johnsmith@email.com" style="font-size: 18px;"><br><br>
+           <label style="font-size: 18px;">Your Message</label><br>
+           <textarea name="message" cols="70" rows="15" placeholder="Hi" style="font-size: 18px;"></textarea>
+           <button type="Submit" name="submit" style="width: 100px; height: 35px;">Send</button>
         </form>
 
     </div>
