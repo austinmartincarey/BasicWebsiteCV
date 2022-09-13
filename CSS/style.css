@@ -6,6 +6,7 @@ body{
     margin: 0px;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 h1{
     margin: 20px 0px 0px 25px;
@@ -29,26 +30,28 @@ position: fixed;
 }
 .main{
 background-color: white;
-width:82%;
+width:83%;
 height: 100%;
 float: right;
-left:18%;
+left:20%;
 position: fixed;
-overflow: scroll;
+overflow-y: scroll;
+font-family: 'Lato', sans-serif;
+
 }
 .ed-row-one{
     background-color: white;
     float: left;
     width: 100%;
     height: 100px;
-    margin:  40px 0px 0px 0px;
+    margin:  20px 0px 0px 0px;
     }
 .ed-row-other{
     background-color:white;
     float: left;
     width: 100%;
-    height: 100px;
-    margin:  25px 0px 0px 0px;
+    height: 200px;
+    margin:  10px 10px 0px 0px;
 }
 
 .profile{
@@ -72,7 +75,7 @@ ul {
     margin: 0 auto 0 auto;
     background-color: #d0d3d9;
     position: relative;
-    overflow: hidden;
+    overflow-y: hidden;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
   }
@@ -102,7 +105,7 @@ ul {
 .ed-p{
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 400px 0px 0px;
     display: inline-block;
     position: relative;
 
@@ -118,7 +121,7 @@ ul {
     margin: 0px 0px 0px 50px;
 }
 .coursework{
-    margin: 30px 0px 0px 30px;
+    margin: 30px 0px 0px 10px;
     font-size: 20px;
 }
 td{
@@ -147,6 +150,7 @@ li a.link:hover:not(.active) {
     margin-top: 30px;
     font-size: 18px;
     align: left;
+    margin: 0px 100px 0px 10px;
 }
 form{
     margin: 25px 0px 0px 25px;
@@ -155,6 +159,7 @@ form{
     margin: 25px 0px 0px 25px;
     font-size: 18px;
 }
+
 
 
 
