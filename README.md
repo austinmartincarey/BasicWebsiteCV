@@ -1,2 +1,2 @@
-# CV_v2
+# BasicWebsiteCV
 Updated version of CV website
