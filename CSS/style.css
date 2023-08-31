@@ -101,12 +101,22 @@ font-family: 'Lato', sans-serif;
     width: 70%;
     margin-top: 20px;
 }
+
 .Name{
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
     margin: 10px 0px 0px 0px;
     color:white;
 }
+
+@media (max-width:550px) {
+	.Name {
+        font-family: 'Oswald', sans-serif;
+        font-size: 28px;
+        margin: 5px 0px 0px 0px;
+	}
+}
+
 .job-title{
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
