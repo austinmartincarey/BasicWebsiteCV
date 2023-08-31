@@ -2,6 +2,7 @@
 html{
     height: 100%;
 }
+
 body{
     margin: 0px;
     height: 100%;
@@ -20,6 +21,7 @@ hr{
     border-width: 1px 0px 1px 0px;
     border-color: black;
 }
+
 .side-bar{
 background-color: #153b87;
 width: 18%;
@@ -29,6 +31,19 @@ text-align: center;
 position: fixed;
 padding: 0px 10px 0px 10px;
 
+}
+
+@media (max-width:550px) {
+	.side-bar {
+		width: 20%;
+        margin: 0px;
+        height: 100%;
+        float: left;
+        text-align: center;
+        position: fixed;
+        background-color: #153b87;
+        overflow:hidden
+	}
 }
 
 .main{
@@ -42,6 +57,18 @@ overflow-y: scroll;
 font-family: 'Lato', sans-serif;
 
 }
+
+@media (max-width:550px) {
+	.main {
+        margin:0% 0% 0% 0%;
+        padding-right: 0%;
+        width: auto;
+        left:25%;
+        position: fixed;
+        background-color: #ffffff;
+	}
+}
+
 .droplist {
     font-size: 18px;
     }
@@ -97,6 +124,20 @@ ul {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
   }
+
+  @media (max-width:550px) {
+	ul {
+        padding: 0px;
+        text-align:center;
+        margin:  0px -5px 0px -5px;
+        background-color: #153b87;
+        overflow: hidden;
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+	}
+}
+
+
   
   li a {
     display: block;
