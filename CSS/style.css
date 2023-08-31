@@ -21,15 +21,18 @@ hr{
     border-color: black;
 }
 .side-bar{
-background-color: #d0d3d9;
+background-color: #153b87;
 width: 18%;
 height: 100%;
 float: left;
 text-align: center;
 position: fixed;
+padding: 0px 10px 0px 10px;
+
 }
+
 .main{
-background-color: white;
+background-color: rgb(255, 255, 255);
 width:83%;
 height: 100%;
 float: right;
@@ -39,8 +42,21 @@ overflow-y: scroll;
 font-family: 'Lato', sans-serif;
 
 }
+.droplist {
+    font-size: 18px;
+    }
+
+.button {
+        font-size: 18px;
+        padding: 0px 5px 0px 2px;
+        margin: 0px 0px 0px 0px;
+        height:23px;
+        width:50px;
+        text-align: center;
+        }
+
 .ed-row-one{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     float: left;
     width: 100%;
     height: 100px;
@@ -59,13 +75,15 @@ font-family: 'Lato', sans-serif;
     margin-top: 20px;
 }
 .Name{
-    font-family: 'Caveat', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 35px;
     margin: 10px 0px 0px 0px;
+    color:white;
 }
 .job-title{
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
+    color:white;
 }
 
 ul {
@@ -73,7 +91,7 @@ ul {
     list-style-type: none;
     padding: 0px;
     margin: 0 auto 0 auto;
-    background-color: #d0d3d9;
+    background-color: #153b87;
     position: relative;
     overflow-y: hidden;
     font-family: 'Oswald', sans-serif;
@@ -82,13 +100,13 @@ ul {
   
   li a {
     display: block;
-    color: #000;
+    color: white;
     padding: 5px;
     text-decoration: none;
   }
   
   li a.active {
-    background-color:#a1beed;
+    background-color:#071d40;
     color: white;
   }
   

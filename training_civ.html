@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Carey's CV</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Oswald&family=Rajdhani&family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('list').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="side-bar" style="overflow: auto;">
+        <img class="profile" src="Images/1660076853015-modified.png" alt="image">
+        <h2 class="Name">
+            Austin Carey
+        </h2>
+        <hr>
+        <ul style="overflow: auto">
+            <li><a href="index.html">About</a></li>
+            <li><a href="education_civ.html">Education</a></li>
+            <li><a href="experience_civ.html">Experience</a></li>
+            <li><a href="publications.html">Publications & Presentations</a></li>
+            <li><a class ="active" href="training_civ.html">Professional Development</a></li>
+            <li><a href="awards_civ.html">Awards</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact & Links</a></li>
+          </ul>
+  </div>
+
+    <div class="main">
+        <form>
+            <select name="list" id="list" class="droplist" accesskey="target">
+                <option selected="Civilian" value="training_civ.html">Civilian</option>
+                <option value="training_mil.html">Military</option>
+            </select>
+            <input type=button class="button" value="Go" onclick="goToNewPage()" />
+            </form>
+        <h1>Professional Development - Civilian</h1>
+        <ol reversed class="publications">
+            <li><p>2022 - RiverWare: Accelerated Combined Introduction to Simulation and Tulebased Simulation Modeling<br>
+                <em>Center for Advanced Decision Support for Environment Systems</em>   
+            </p></li>
+            <li><p>2020 - Maps and Data Training<br>
+                <em>Maricopa Association of Governments</em> 
+            </p></li>
+            <li><p>2019 - GoldSim Modeling Workshop<br>
+                <em>Arizona Hydrological Society Annual Symposium</em>
+            </p></li>
+            <li><p>2019 - Intoduction to Groundwater Modeling in Arizona<br>
+                <em>Arizona Hydrological Society and Arizona State University</em> 
+            </p></li>
+            <li><p>2018 - 4WD and Off-roading Training<br>
+                <em>Bill Burke's 4-Wheeling America LLC</em> 
+            </p></li>
+            <li><p>2018 - New Miner Training (Surface)<br>
+                <em>Mine Safety and Health Administration (MSHA)</em>  
+            </p></li>
+            <li><p>2018 & 2020 - Adult CPR/AED First Arid Certification<br>
+                <em>American Red Cross</em>  
+            </p></li>
+            <li><p>2017 - ADHS/ADEQ EPA Permit Field Method Training (Water Quality)<br>
+                <em>Arizona Department of Health</em>  
+            </p></li>
+            <li><p>2017 - Basic Electrongis - Hydrologic Instrumentation Facility<br>
+                2017 - Large Scale Particle Velocimetry<br>
+                2017 - Surface-Water Procedures and Policies<br>
+                2017 - Introduction to Streamgaging and Instrument Troubleshooting<br>
+                <em>U.S. Geological Survey</em>
+            </p></li>
+            <li><p>2017 - Wilderness First Aid Certification<br>
+                <em>The National Outdoor Leadership School (NOLS)</em>
+            </p></li>
+            <li><p>2017 - Water Quality Permit Field Method Training<br>
+                <em>Arizona Department of Health / Arizona Department of Environmental Quality</em>
+            </p></li>
+            <li><p>2016 - Direct Push Methods for High-Resolution Characterizaion of Subsurface Properties<br>
+                <em>Kansas Geological Survey</em>
+            </p></li>
+            <li><p>2014 - Snowpack Dynamics and Snow Science Workshop<br>
+                <em>Teton Science School</em>
+            </p></li>
+            <li><p>2014 - Eco-hydro-geophysics Field Course<br>
+                <em>University of Wyoming and Jackson State University</em>
+            </p></li>
+
+        </ol>
+
+    </div>
+</body>
+</html>

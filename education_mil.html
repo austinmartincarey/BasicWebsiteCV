@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Carey's CV</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Oswald&family=Rajdhani&family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('list').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="side-bar" style="overflow: auto;">
+        <img class="profile" src="Images/1660076853015-modified.png" alt="image">
+        <h2 class="Name">
+            Austin Carey
+        </h2>
+        <hr>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a class="active" href="education_civ.html">Education</a></li>
+            <li><a href="experience_civ.html">Experience</a></li>
+            <li><a href="publications.html">Publications & Presentations</a></li>
+            <li><a href="training_civ.html">Professional Development</a></li>
+            <li><a href="awards_civ.html">Awards</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact & Links</a></li>
+          </ul>
+</div>
+
+
+
+    <div class="main" >
+        <form>
+            <select name="list" id="list" class="droplist" accesskey="target">
+                <option value="education_civ.html">Civilian</option>
+                <option selected="Military" value="education_mil.html">Military</option>
+            </select>
+            <input type=button class="button" value="Go" onclick="goToNewPage()" />
+            </form>
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>

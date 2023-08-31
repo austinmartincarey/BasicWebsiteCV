@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Carey's CV</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Oswald&family=Rajdhani&family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('list').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="side-bar" style="overflow: auto;">
+        <img class="profile" src="Images/1660076853015-modified.png" alt="image">
+        <h2 class="Name">
+            Austin Carey
+        </h2>
+        <hr>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a class="active" href="education_civ.html">Education</a></li>
+            <li><a href="experience_civ.html">Experience</a></li>
+            <li><a href="publications.html">Publications & Presentations</a></li>
+            <li><a href="training_civ.html">Professional Development</a></li>
+            <li><a href="awards_civ.html">Awards</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact & Links</a></li>
+          </ul>
+</div>
+
+    <div class="main" >
+        <form>
+            <select name="list" id="list" class="droplist" accesskey="target">
+                <option selected="Civilian" value="education_civ.html">Civilian</option>
+                <option value="education_mil.html">Military</option>
+            </select>
+            <input type=button class="button" value="Go" onclick="goToNewPage()" />
+            </form>
+        <h1>Degrees</h1>
+        <p class="ed-p" style="top: 20px; bottom: 0px; left: 30px; right: 30px;"><span style="font-weight: bold">M.S. Hydrology and Watershed Resources (2016)</span><br>University of Wyoming - Laramie, WY<br><em><a class="link" href="Images/Submitted Thesis.pdf">Thesis: Partitioning Surface and Subsurface Flow in a Semi-arid Rangeland Watershed</a><br></em>
+        Summa Cum Laude (GPA: 4.00)<br><br>
+        </p>
+        <div class=".ed-row-other">
+        <p class="ed-p" style="top: 20px; bottom: 0px; left: 30px; right: 30px;"><span style="font-weight: bold">B.S. Watershed Management and Hydrology (2013)</span><br>University of Arizona - Tucson, AZ<br>Magna Cum Laude (GPA: 3.81)
+        <br><br></p>
+
+        <h1>Selected Coursework</h1>
+        <table class="coursework">
+            <tr>
+                <td>-Practical Accounting</td>
+                <td>-Business Mathematics</td>
+            </tr>
+            <tr>
+                <td>-Statistical Methods in Agriculture</td>
+                <td>-Human Relations in Business and Industry</td>
+            </tr>
+            <tr>
+                <td>-Deterministic Hydrology</td>
+                <td>-Spatial Hydrology</td>
+            </tr>
+            <tr>
+                <td>-Linear Algebra</td>
+                <td>-Differential Equations</td>
+            </tr>
+            <tr>
+                <td>-Watershed Engineering</td>
+                <td>-Biostatistics</td>
+            </tr>
+            <tr>
+                <td>-Physics of Environmental Fluids</td>
+                <td>-Translating Environmental Science</td>
+            </tr>
+            <tr>
+                <td>-Java Programming</td>
+                <td>-Soil Physics</td>
+            </tr>
+        </table>
+
+        <h1 >Certifications </h1>
+        <p class="ed-p" style="top: 20px; bottom: 0px; left: 30px; right: 90px;"><span style="font-weight: bold">Private Aircraft Pilot (2023)</span><br>Federal Aviation Administration
+        <br><br></p>
+        <p class="ed-p" style="top: 20px; bottom: 0px; left: 30px; right: 90px;"><span style="font-weight: bold">Complete 2022 Web Development Bootcamp <em>(In Progress)</em></span><br>Udemy
+        <br><br></p>
+        <p class="ed-p" style="top: 20px; bottom: 0px; left: 30px; right: 90px;"><span style="font-weight: bold">Python for Data Science and Machine Learning<em>(In Progress)</em></span><br>Udemy
+        <br><br></p>
+        <p class="ed-p" style="top: 20px; bottom: 0px; left: 30px; right: 90px;"><span style="font-weight: bold"><a class="link" href="Images/SQLCert.png">SQL Bootcamp - PostgreSQL & PgAdmin (2022)</a></span><br>Udemy
+        <br><br></p>
+        <p class="ed-p" style="top: 20px; bottom: 0px; left: 30px; right: 90px;"><span style="font-weight: bold">Certificate of Leadership and Communications (2021)</span><br>HarvardX
+        <br><br></p>
+        <p class="ed-p" style="top: 20px; bottom: 0px; left: 30px; right: 90px;"><span style="font-weight: bold"><a class="link" href="Images/Certificate_Pima.pdf">Certificate of Business with Management Emphasis (2018)</a></span><br>(20 Credit Hrs) Pima Coummunity College - Tucson, AZ
+        <br><br></p>
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>
